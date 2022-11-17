@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400&family=Quicksand:wght@300;400;500&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind', sans-serif;
+    
+
+}
+
+
+.encabezado {
+     width: 100%;
+    height: 100vh;
+    background: linear-gradient(315deg, rgba(202,194,229,1) 35%, rgba(220,219,100,1) 48%, rgba(202,194,229,1) 69%);
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 30px;
+    color:rgb(72, 61, 61);
+    font-weight: 500;
+
+    
+}
+.navegacion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 90%;
+
+
+}
+
+.contenedor-parrafo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+
+
+}
+.titulo-info{
+    font-weight: 500;
+    width: 100%;
+}
+
+.img-info{
+    width: 100%;
+
+
+}
+.boton{
+    background-color: rgb(63, 63, 182);
+    height: 50px;
+    width: 40%;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Hind', sans-serif;
+ }
+
+ .seccion{
+    width: 100%;
+    height:100vh ;
+    background: linear-gradient(315deg, rgba(202,194,229,1) 35%, rgba(213,100,220,1) 48%, rgba(202,194,229,1) 69%);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction:column ;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-seccion{
+    color: blueviolet;
+    font-size: 80px ;
+    font-weight: 700;
+}
+.parrafo-seccion{
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+.contenedor-iconos{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+
+
+.contenedor-informacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:20% ;
+    }
+
+.contenedor-informacion p {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 300;
+}
